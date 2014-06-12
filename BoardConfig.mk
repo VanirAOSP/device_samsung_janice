@@ -24,3 +24,6 @@ BOARD_HARDWARE_CLASS := device/samsung/janice/cmhw
 
 # Disable legacy sensors using because janice has gyro
 BOARD_USE_LEGACY_SENSORS_FUSION := false
+
+# Releasetools
+TARGET_RELEASETOOLS_EXTENSIONS := device/samsung/u8500-common
