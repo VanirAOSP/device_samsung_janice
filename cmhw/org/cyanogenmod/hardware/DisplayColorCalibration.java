@@ -83,6 +83,10 @@ public class DisplayColorCalibration {
         return 255;
     }
 
+     public static int getDefValue()  {
+        return getMaxValue();
+    }
+
     /* 
      * What's the minimum integer value we take for a color
      */
